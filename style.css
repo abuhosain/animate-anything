@@ -28,6 +28,29 @@ h1::before {
   font-weight: 600;
 } */
 
+/* locomotive */
+
+#lpage1{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(116, 112, 112);
+}
+
+#lpage2{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(142, 136, 136);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#lpage3{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(69, 65, 65);
+}
+
+/* gsap scrolll */
 #page1 {
   height: 100%;
   width: 100%;
@@ -69,6 +92,7 @@ h1::before {
   border-radius: 10px;
 }
 
+/* gsap animation */
 #circle {
   height: 300px;
   width: 300px;
