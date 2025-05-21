@@ -28,6 +28,19 @@ h1::before {
   font-weight: 600;
 } */
 
+/* lenis js */
+.peg{
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  border-bottom: 10px solid #fff;
+}
+
 /* locomotive */
 
 #lpage1{

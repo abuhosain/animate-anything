@@ -1,11 +1,25 @@
+// lenis
+
+// Initialize Lenis
+const lenis = new Lenis({
+  autoRaf: true,
+});
+
+// Listen for the scroll event and log the event data
+lenis.on('scroll', (e) => {
+  console.log(e);
+});
+
+
+
 
 // locomotive scroll
-var main = document.querySelector("[data-scroll-container]");
-const scroll = new LocomotiveScroll({
-  el : main,
-  smooth : true,
-  lerp: 0.01
-})
+// var main = document.querySelector("[data-scroll-container]");
+// const scroll = new LocomotiveScroll({
+//   el : main,
+//   smooth : true,
+//   lerp: 0.01
+// })
 
 
 
