@@ -17,7 +17,7 @@ h1 {
   font-size: 50px;
   font-weight: 600;
 }
-
+/* 
 h1::after {
   content: " how r u";
 }
@@ -27,7 +27,9 @@ h1::before {
   color: crimson;
   font-size: 50px;
   font-weight: 600;
-}
+} */
+
+
 
 #box {
   height: 300px;
@@ -35,16 +37,16 @@ h1::before {
   background-color: crimson;
   border-radius: 10px;
   position: absolute;
-
+/* 
   animation-name: box-animation;
   animation-duration: 5s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in; */
 }
 
-@keyframes box-animation {
+/* @keyframes box-animation {
   0% {
     left: 0;
     rotate: 0deg;
@@ -62,4 +64,4 @@ h1::before {
     rotate: 360deg;
     background-color: blue;
   }
-}
+} */
