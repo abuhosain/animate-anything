@@ -10,7 +10,6 @@ body {
   width: 100%;
 }
 
-
 /* h1 {
   text-align: center;
   margin-top: 20px;
@@ -29,6 +28,47 @@ h1::before {
   font-weight: 600;
 } */
 
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color:  #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color:  #bdacac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(60, 63, 63);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+}
+#page4 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(152, 159, 159);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bux {
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  border-radius: 10px;
+}
+
 #circle {
   height: 300px;
   width: 300px;
@@ -36,7 +76,6 @@ h1::before {
   border-radius: 50%;
   position: absolute;
 }
-
 
 #box1 {
   height: 300px;
@@ -62,14 +101,13 @@ h1::before {
   margin-bottom: 10px;
 }
 
-
 #box {
   height: 300px;
   width: 300px;
   background-color: crimson;
   border-radius: 10px;
   position: absolute;
-/* 
+  /* 
   animation-name: box-animation;
   animation-duration: 5s;
   animation-fill-mode: forwards;

@@ -1,3 +1,54 @@
+
+gsap.from("#page1 #bux", {
+  scale: 0,
+  duration: 1,
+  rotate: 360,
+  delay: 1,
+})
+
+
+
+gsap.from("#page2 #bux", {
+  scale: 0,
+  duration: 1,
+  rotate: 360,
+ 
+  scrollTrigger: {
+    trigger : "#page2 #bux",
+    scroller: 'body',
+    markers: true,
+    start: "top 70%",
+    end : "top 30%",
+    scrub: 2,
+  },
+})
+
+
+gsap.to("#page3 #bux", {
+  x : 600,
+  duration: 2,
+  scrollTrigger: {
+    trigger: "#page3 #bux",
+    scroller: 'body',
+    markers: true,
+    start: "top 60%",
+    end : "top 30%",
+    scrub: 2,
+    pin : true
+  }
+})
+
+
+
+
+
+
+
+
+
+
+
+
 gsap.from("#box", {
   x: 1300,
   duration: 2,
