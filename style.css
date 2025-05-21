@@ -10,6 +10,25 @@ body {
   width: 100%;
 }
 
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+h1::after {
+  content: " how r u";
+}
+
+h1::before {
+  content: "Hello ";
+  color: crimson;
+  font-size: 50px;
+  font-weight: 600;
+}
+
 #box {
   height: 300px;
   width: 300px;
